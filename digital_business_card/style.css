@@ -1,0 +1,81 @@
+body {
+    background-color: #23252C;
+    box-sizing: border-box;
+    margin:20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    text-align: center;
+    background-color: #1A1B21;
+    max-width: 317px;
+}
+
+.info {
+    color:white;
+    line-height: 10px
+}
+.info > button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    
+}
+.info >h4 {
+    color:#F3BF99;
+}
+
+.linkedin-button {
+    background-color: #5093E2;
+    color: white;
+}
+
+.about {
+    color: white;
+    line-height: 20px;
+    margin: 30px;
+    text-align: left;
+}
+
+.about > p {
+    font-weight:500;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.interests {
+    color: white;
+    line-height: 20px;
+    margin: 30px;
+    text-align:left;
+    margin-bottom: 10px;
+}
+.interests > p {
+    font-weight:500;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.footer {
+    background-color:black;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+}
+
+.email-logo {
+    width:13px;
+    margin-right:10px;
+}
+
+.linkedin-logo {
+    width: 13px;
+    color: white;
+    margin-right:10px;
+}
